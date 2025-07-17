@@ -1,0 +1,23 @@
+body{
+  background: linear-gradient(345deg, #600879, #4e1271, #3e1667, #2e185d, #211751, #141545, #0b1138, #050b2b);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  padding: 5px 10px;
+  width: 30vw;
+  border-radius: 10px;
+  color: whitesmoke;
+
+
+}
+

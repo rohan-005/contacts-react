@@ -1,0 +1,73 @@
+.input-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+input {
+  margin: 10px 50px;
+  width: 20vw;
+  height: 4vh;
+  border-radius: 10px;
+  border: none;
+  background: rgba(229, 200, 170, 0.15);
+  backdrop-filter: blur(5px);
+  color: rgb(211, 170, 170);
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+.icon {
+  font-size: 30px;
+  color: rgb(42, 165, 81);
+  text-align: center;
+  background: rgba(229, 200, 170, 0.15);
+  backdrop-filter: blur(5px);
+  border-radius: 40px;
+  padding: 5px 10px;
+  align-items: center;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  background-color: rgb(63, 62, 61);
+  transition: all (0.2s) ease-in;
+}
+
+.editform{
+  margin: 0px 10px;
+  width: 10vw;
+  height: 2vh;
+  border-radius: 10px;
+  border: none;
+  background: rgba(55, 46, 36, 0.15);
+  backdrop-filter: blur(5px);
+  color: rgb(211, 170, 170);
+  font-size: 20px;
+  text-align: left;
+  padding:2px 5px;
+}
+
+.innerlist [type="number"]::-webkit-outer-spin-button,
+.innerlist [type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.editbutton{
+  width: 5vw;
+  text-align: center;
+  left: 4vw;
+  top: -10vh;
+  height: 3vh;
+  /* margin-top: 1vh;
+  margin-bottom: 2vh; */
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(55, 130, 5);
+  font-size: 20px;
+  position: relative;
+
+}

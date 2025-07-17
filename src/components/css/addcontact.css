@@ -1,0 +1,61 @@
+.addcontact {
+  display: none;
+  transition: all 0.3s ease;
+  color: aliceblue;
+  background-color: rgb(114, 112, 110);
+  width: 20vw;
+  border-radius: 10px;
+  position: relative;
+  left: 33vw;
+  top: -50vh;
+  animation: popout 0.2s ease-out forwards;
+}
+.addcontact.active {
+  display: grid;
+}
+
+
+
+@keyframes popout {
+  from {
+    transform: scale(0);
+  
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+
+
+.addinput {
+  width: 15vw;
+  color: rgb(2, 2, 2);
+}
+.addinput::placeholder {
+  color: #52584f;
+}
+
+button {
+  width: 15vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3vh;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(55, 130, 5);
+  font-size: 20px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.addcontact [type="number"]::-webkit-outer-spin-button,
+.addcontact [type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
